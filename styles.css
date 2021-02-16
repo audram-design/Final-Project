@@ -1,0 +1,351 @@
+body {
+    margin: 0
+}
+
+a:active,a:hover {
+    outline: 0
+}
+
+h1 {
+    font-size: 8.5rem;
+    line-height: .882353;
+    margin-top: -.078em;
+font-family: StratumBold,Arial,sans-serif;
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 3.75rem;
+    line-height: .88;
+    letter-spacing: .01em;
+    margin-top: -.07em;
+font-family: StratumBold,Arial,sans-serif;
+    text-transform: uppercase;
+}
+h3 {
+    font-size: 2rem;
+    line-height: .9;
+    letter-spacing: .01em;
+    margin-top: -.09em;
+    margin-bottom: 2.05em;
+font-family: StratumBold,Arial,sans-serif;
+    text-transform: uppercase;
+}
+h4 {
+    font-size: 1.4rem;
+    line-height: .92857;
+    letter-spacing: .01em;
+    margin-top: -.075em;
+font-family: StratumBold,Arial,sans-serif;
+    text-transform: uppercase;
+}
+h5 {
+    font-size: .7rem;
+    line-height: 1.14286;
+    letter-spacing: .01em;
+    margin-top: -.09em;
+font-family: StratumBold,Arial,sans-serif;
+    text-transform: uppercase;
+}
+h6 {
+    font-family: FFDINWebProCondBold,Arial,sans-serif;
+    font-size: .85rem;
+    line-height: 1.52941;
+    text-transform: uppercase;
+    letter-spacing: .35em;
+    margin-top: -.3em;
+    margin-bottom: 3.8235em;
+}
+.h7 {
+    font: normal 15px/1.2 StratumBlack,Arial,sans-serif;
+    font-size: .75rem;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    margin-top: -.2em
+}
+.h8 {
+    font: normal 14px/.9 StratumBold,Arial,sans-serif;
+    font-size: .7rem;
+    text-transform: uppercase;
+    letter-spacing: .01em;
+    margin-bottom: 1.2857em
+}
+.h9 {
+    font: normal 17px/.9 FFDINWebProCondBold,Arial,sans-serif;
+    font-size: .85rem;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    margin-bottom: 1.4em;
+    color: #353B44
+}
+
+b,strong {
+    font-weight: 700
+}
+
+@keyframes simple-fade-in {
+    0% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+@keyframes discover-yours-arrow {
+    0%,100%,50% {
+        opacity: .2
+    }
+
+    10% {
+        opacity: 1
+    }
+}
+
+@font-face {
+    font-family: StratumLight;
+    src: url(../font/stratum/Stratum1WebLight.eot);
+    src: url(../font/stratum/Stratum1WebLight.eot?#iefix) format("embedded-opentype"),url(../font/stratum/Stratum1WebLight.woff) format("woff");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: StratumBold;
+    src: url(../font/stratum/Stratum2WebBold.eot);
+    src: url(../font/stratum/Stratum2WebBold.eot?#iefix) format("embedded-opentype"),url(../font/stratum/Stratum2WebBold.woff) format("woff");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: StratumBlack;
+    src: url(../font/stratum/Stratum2WebBlack.eot);
+    src: url(../font/stratum/Stratum2WebBlack.eot?#iefix) format("embedded-opentype"),url(../font/stratum/Stratum2WebBlack.woff) format("woff");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: FFDINWebLight;
+    src: url(../font/din/2F8321_0_0.eot);
+    src: url(../font/din/2F8321_0_0.eot?#iefix) format("embedded-opentype"),url(../font/din/2F8321_0_0.woff2) format("woff2"),url(../font/din/2F8321_0_0.woff) format("woff"),url(../font/din/2F8321_0_0.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: FFDINWebMedium;
+    src: url(../font/din/2F8321_1_0.eot);
+    src: url(../font/din/2F8321_1_0.eot?#iefix) format("embedded-opentype"),url(../font/din/2F8321_1_0.woff2) format("woff2"),url(../font/din/2F8321_1_0.woff) format("woff"),url(../font/din/2F8321_1_0.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: FFDINWeb;
+    src: url(../font/din/2F8321_2_0.eot);
+    src: url(../font/din/2F8321_2_0.eot?#iefix) format("embedded-opentype"),url(../font/din/2F8321_2_0.woff2) format("woff2"),url(../font/din/2F8321_2_0.woff) format("woff"),url(../font/din/2F8321_2_0.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: FFDINWebProCondBold;
+    src: url(../font/din/2F8321_3_0.eot);
+    src: url(../font/din/2F8321_3_0.eot?#iefix) format("embedded-opentype"),url(../font/din/2F8321_3_0.woff2) format("woff2"),url(../font/din/2F8321_3_0.woff) format("woff"),url(../font/din/2F8321_3_0.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal
+}
+
+
+
+.button-outline {
+    position: relative;
+    display: inline-block;
+    height: 2rem;
+    background: 0 0;
+    border: 0;
+    padding: 0;
+    z-index: 0
+}
+
+.button-outline:hover .button-outline-copy:before {
+    right: calc(62% + 5px)
+}
+
+.button-outline.active .button-outline-copy:after,.button-outline:hover .button-outline-copy:after {
+    left: calc(38% + 5px)
+}
+
+.button-outline.active .button-outline-bottom:before,.button-outline:hover .button-outline-bottom:before {
+    right: calc(38% + 5px)
+}
+
+.button-outline.active .button-outline-bottom:after,.button-outline:hover .button-outline-bottom:after {
+    left: calc(62% + 5px)
+}
+
+.button-outline.is-mouse-down .button-outline-copy {
+    color: #fff
+}
+
+.button-outline.is-mouse-down:after {
+    right: 0;
+    opacity: 1;
+    transition-duration: .2s,25ms;
+    transition-delay: 0s,0s
+}
+
+.button-outline.is-mouse-down.inverted .button-outline-copy {
+    color: #0e182d
+}
+
+.button-outline:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    height: 100%;
+    border-left: 1px solid currentColor;
+    border-right: 1px solid currentColor;
+    -ms-transform: translate(0,-50%);
+    transform: translate(0,-50%)
+}
+
+.button-outline:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 60%;
+    background: currentColor;
+    transition: right 0s cubic-bezier(.19,1,.22,1) 110ms,opacity .1s cubic-bezier(.25,.25,.75,.75) 0s;
+    opacity: 0
+}
+
+.button-outline.inverted {
+    color: #fff
+}
+
+.button-outline.inverted .button-outline-copy:after,.button-outline.inverted .button-outline-copy:before {
+    background: #fff
+}
+
+.button-outline.full-width {
+    display: block;
+    text-align: center
+}
+
+.button-outline.full-width .button-outline-copy {
+    padding: 0
+}
+
+.button-outline .loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%)
+}
+
+.button-outline .not-visible {
+    visibility: hidden
+}
+
+.button-outline-copy {
+    position: relative;
+    display: block;
+    padding: 0 2.6rem;
+    font: normal 18px/2.2rem StratumBlack,Arial,sans-serif;
+    font-size: .9rem;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    transition: color .4s cubic-bezier(.19,1,.22,1)
+}
+
+.button-outline-copy:after,.button-outline-copy:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    height: 1px;
+    background: currentColor;
+    left: 0;
+    right: 0;
+    transition: all .6s cubic-bezier(.19,1,.22,1) 50ms
+}
+
+.button-outline-copy:before {
+    right: calc(38% + 5px)
+}
+
+.button-outline-copy:after {
+    left: calc(62% + 5px)
+}
+
+.button-outline-copy.small-padding {
+    padding: 0 1.9rem
+}
+
+.button-outline-copy.small-copy {
+    font-size: .75rem
+}
+
+.button-outline-icon {
+    height: .95rem;
+    width: .95rem;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -1px;
+    margin-right: .25em;
+    position: relative;
+    top: -.0625em
+}
+
+.button-outline-icon path {
+    fill: currentColor
+}
+
+.button-outline-bottom:after,.button-outline-bottom:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    height: 1px;
+    background: currentColor;
+    left: 0;
+    right: 0;
+    transition: all .8s cubic-bezier(.19,1,.22,1) 50ms
+}
+
+.button-outline-bottom:before {
+    right: calc(62% + 5px)
+}
+
+.button-outline-bottom:after {
+    left: calc(38% + 5px)
+}
+
+.button-alignment {
+    display: inline
+}
+
+.button-alignment.center,.button-alignment.left,.button-alignment.right {
+    display: block;
+    width: 100%
+}
+
+.button-alignment.center {
+    text-align: center
+}
+
+.button-alignment.left {
+    text-align: left
+}
+
+.button-alignment.right {
+    text-align: right
+}
+
