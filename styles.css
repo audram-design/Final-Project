@@ -1,10 +1,21 @@
 body {
-    margin: 0
+    margin: 0;
+    background-color: gray;
 }
 
 a:active,a:hover {
     outline: 0
 }
+
+p {
+    font-size: .7rem;
+    line-height: 1.14286;
+    letter-spacing: .01em;
+    margin-top: -.09em;
+font-family: StratumBold,Arial,sans-serif;
+color:white;
+}
+
 
 h1 {
     font-size: 8.5rem;
@@ -46,6 +57,7 @@ h5 {
 font-family: StratumBold,Arial,sans-serif;
     text-transform: uppercase;
 }
+
 h6 {
     font-family: FFDINWebProCondBold,Arial,sans-serif;
     font-size: .85rem;
