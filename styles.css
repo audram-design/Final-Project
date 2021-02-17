@@ -841,12 +841,10 @@ footer {
 
 #footer-info {
     grid-area: info;
-    text-align: left;
     display: inline-flex;
 }
 
 #footer-info p {
-    list-style: none;
     width: auto;
     padding-right: 40px;
     font: normal 14px/.9 StratumBold,Arial,sans-serif;
@@ -857,14 +855,9 @@ footer {
     text-align: right;
 }
 
-#footer-socials ul {
-    list-style: none;
-}
-
-#footer-socials li {
-    display: inline;
-    padding-left: 10px;
-    
+#footer-socials i {
+    padding-left: 20px;
+    padding-bottom: 50px;
 }
 
 .grid-container {
@@ -881,7 +874,9 @@ footer {
     text-align: center;
 } */
 
-
+/* footer div {
+    border: 1px red solid;
+} */
 
 
 
