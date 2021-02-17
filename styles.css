@@ -1,19 +1,20 @@
 body {
-    margin: 0;
-    background-color: gray;
+    margin: 0 auto;
+    background-color:gray;
+
 }
 
 a:active,a:hover {
     outline: 0
 }
 
-p {
-    font-size: .7rem;
+ .copy-intro-01,.copy-intro-02,.privacy-policy-content h5,p {
+    font: normal 24px/1.5 FFDINWeb,Arial,sans-serif;
+    font-size: 1.2rem;
+    margin-top: -.3em;
+    margin-bottom: 1.5em;
     line-height: 1.14286;
     letter-spacing: .01em;
-    margin-top: -.09em;
-font-family: StratumBold,Arial,sans-serif;
-color:white;
 }
 
 
@@ -94,6 +95,226 @@ b,strong {
     font-weight: 700
 }
 
+
+.container {
+    position: relative;
+    display: block;
+    width:100%;
+    height:100vh;
+}
+
+
+.container {
+    position: relative;
+    display: block;
+    width:100%;
+    height:100vh;
+    overflow: hidden;
+}
+
+nav {
+    position: absolute;
+    display:flex;
+    z-index: 900;
+    top:0;
+    width:100%;
+    }
+    
+.homeheader {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+}
+
+.videoWrap{
+    position: relative;
+}
+
+.headervideo {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: 100vh;
+    z-index: -100;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-0%);
+    background: url(placeholder.jpg) no-repeat;
+    background-size: cover;
+    object-fit: fill;
+}
+
+.headercontent {
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    color:white;
+    z-index:300;
+}
+
+
+
+.headercontent h1{
+max-width:60%;
+text-align:center;
+}
+
+
+
+
+.homeheader img{
+    padding-bottom:80px;
+}
+
+
+
+
+
+
+
+
+
+.Mission {
+    display:flex;
+    position: relative;
+    background-color:white;
+    padding: 10rem 10% 10rem 10%;
+    text-align:center;
+    justify-content: center;
+}
+
+.Mission p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color:black;
+}
+.mission-copy {
+    width: 44.5rem;
+}
+
+
+
+
+.Branches {
+    position: relative;
+    padding: 10rem 10% 10rem 10%;
+    background-color:black;
+    height: 100vh;
+
+}
+
+.Branches-content h2 {
+    width: 38.5rem;
+
+}
+
+
+
+.stars-container {
+    position:absolute;
+}
+
+@import "susy";
+@import "compass/reset";
+
+.stars, .twinkling, {
+	position:absolute;
+	display:block;
+	top:0; bottom:0;
+	left:0; right:0;
+	width:100%; height:100%;
+}
+
+.stars {
+	z-index: 0;
+	background: #000 url('https://image.ibb.co/mjnygo/stars.png') repeat top center;
+}
+
+.twinkling{
+	z-index: 1;
+	background:transparent url('https://image.ibb.co/ir1DE8/twinkling.png') repeat top center;
+	animation: move-twink-back 800s linear infinite;
+}
+
+
+@keyframes move-twink-back {
+	from {background-position:0 0;}
+	to {background-position:-10000px 5000px;}
+}
+
+.Branches-content {
+    Position:absolute;
+    z-index:500;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    display:flex;
+    color:white;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+.careers {
+    display:block;
+    position: relative;
+    padding:160px;
+    background-color:white;
+    color:black;
+    text-align: center;
+}
+
+.marketingvideo {
+display:block;
+position: relative;
+}
+
+.footer {
+    display:block;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @keyframes simple-fade-in {
     0% {
         opacity: 0
@@ -169,6 +390,63 @@ b,strong {
     font-weight: 400;
     font-style: normal
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -360,4 +638,178 @@ b,strong {
 .button-alignment.right {
     text-align: right
 }
+
+
+
+
+/*boxes*/
+
+.reset-list {
+    list-style: none
+}
+
+
+.boxed-option-list {
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+
+
+
+.boxed-option-list {
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+}
+
+.boxed-option-item {
+    position: relative;
+    max-width: 50rem;
+    box-sizing: border-box;
+      justify-content: center;
+  padding:50px;
+
+}
+
+.boxed-option-items {
+    position: relative;
+}
+
+
+
+
+/*animation*/
+html.is-mobile .boxed-option-item.active .hover-lines,html:not(.is-mobile) .boxed-option-item:hover .hover-lines {
+    height: 100%;
+    width: 100%;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    transition: width 150ms cubic-bezier(.25,.25,.75,.75),height .2s cubic-bezier(.25,.25,.75,.75) 145ms,border-left-width 0s cubic-bezier(.25,.25,.75,.75) 145ms,border-right-width 0s cubic-bezier(.25,.25,.75,.75) 145ms
+}
+
+html.is-mobile .boxed-option-item.active .hover-lines:after,html.is-mobile .boxed-option-item.active .hover-lines:before,html:not(.is-mobile) .boxed-option-item:hover .hover-lines:after,html:not(.is-mobile) .boxed-option-item:hover .hover-lines:before {
+    width: 50%;
+    transition: width .5s cubic-bezier(.19,1,.22,1) 340ms
+}
+html.is-mobile .boxed-option-item.active .button-content,html:not(.is-mobile) .boxed-option-item:hover .button-content {
+    -ms-transform: translate(0,0);
+    transform: translate(0,0);
+    transition-delay: .2s
+}
+
+html.is-mobile .boxed-option-item.active .button-inline-caps,html:not(.is-mobile) .boxed-option-item:hover .button-inline-caps {
+    opacity: 1;
+    -ms-transform: translate(0,0);
+    transform: translate(0,0);
+    transition-delay: .2s
+} 
+
+html.is-mobile .boxed-option-item.active .has-play-button .play-button-wrapper,html:not(.is-mobile) .boxed-option-item:hover .has-play-button .play-button-wrapper {
+    -ms-transform: translate(0,2.4rem);
+    transform: translate(0,2.4rem);
+    transition-delay: .2s
+}
+
+html.is-mobile .boxed-option-item.active .has-play-button .button-icon,html:not(.is-mobile) .boxed-option-item:hover .has-play-button .button-icon {
+    -ms-transform: scale(2);
+    transform: scale(2);
+    transition-delay: .2s
+}
+
+html.is-mobile .boxed-option-item.active .icon-image,html.is-mobile .boxed-option-item.active .number,html.is-mobile .boxed-option-item.active .subtitle,html:not(.is-mobile) .boxed-option-item:hover .icon-image,html:not(.is-mobile) .boxed-option-item:hover .number,html:not(.is-mobile) .boxed-option-item:hover .subtitle {
+    -ms-transform: translate(0,-1.4rem);
+    transform: translate(0,-1.4rem);
+    transition-delay: .2s
+}
+
+html.is-mobile .boxed-option-item.active .number,html:not(.is-mobile) .boxed-option-item:hover .number {
+    -ms-transform: translate(-50%,-1.4rem);
+    transform: translate(-50%,-1.4rem)
+}
+
+html.is-mobile .boxed-option-item.active .number:after,html:not(.is-mobile) .boxed-option-item:hover .number:after {
+    height: 6rem;
+    transition-delay: .2s
+}
+
+
+
+.boxed-option-item:before {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: '';
+    position: absolute;
+    border: 1px solid white;
+    transition: all 150ms cubic-bezier(.19,1,.22,1)
+}
+
+.boxed-option-item:not(:first-child):before {
+    left: -1px;
+    border-left-width: 0
+}
+
+.boxed-option-item .hover-lines {
+    height: 0;
+    width: 0;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    -ms-transform: translate(-50%,0);
+    transform: translate(-50%,0);
+    box-sizing: border-box;
+    border-bottom: 2px solid white;
+    border-left: 0 solid white;
+    border-right: 0 solid white;
+    transition: width .4s cubic-bezier(.19,1,.22,1) 340ms,height .2s cubic-bezier(.25,.25,.75,.75) 145ms,border-left-width 0s cubic-bezier(.25,.25,.75,.75) 340ms,border-right-width 0s cubic-bezier(.25,.25,.75,.75) 340ms
+}
+
+
+
+.boxed-option-item .button-content {
+    max-width: 16rem;
+    -ms-transform: translate(0,1.4rem);
+    transform: translate(0,1.4rem);
+    transition: all .8s cubic-bezier(.19,1,.22,1)
+}
+
+
+
+.boxed-option-item .subtitle {
+    transition: transform .8s cubic-bezier(.19,1,.22,1)
+}
+
+
+
+.boxed-option-item .heading-03 {
+    line-height: 1;
+    margin-top: -1em;
+    margin-bottom: 0
+}
+
+.boxed-option-item .copy-body-01 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-bottom: .8333em
+}
+
+.boxed-option-item .copy-body-01 {
+    margin-top: 2em
+}
+
+
+
+
+
+
+
+
 
