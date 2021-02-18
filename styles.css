@@ -729,7 +729,7 @@ html.is-mobile .boxed-option-item.active .number:after,html:not(.is-mobile) .box
 .block-grid .expanded-item:before {
     content: '';
     display: block;
-    padding-top: 56.25%
+    padding-top: 56.25%;
 }
 
 .block-grid .expanded-item.is-active {
@@ -756,6 +756,25 @@ html.is-mobile .boxed-option-item.active .number:after,html:not(.is-mobile) .box
     transform: scale(1.005);
     transition: transform 1s cubic-bezier(.19,1,.22,1)
 }
+
+
+.grid-container {
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: grid;
+    grid-template-areas: 'menu image'
+    'info socials';
+}
+/* 
+.grid-container div {
+    border: 5px black solid;
+    text-align: center;
+} */
+
+/* footer div {
+    border: 1px red solid;
+} */
 
 html.is-mobile .block-grid-animate .grid-item.active img,html:not(.is-mobile) .block-grid-animate .grid-item:hover img {
     -ms-transform: scale(1.1);
@@ -881,3 +900,57 @@ html.is-mobile .block-grid-animate .grid-item.active img,html:not(.is-mobile) .b
     min-width: 177.77vh; /* Given a 16:9 aspect ratio, 16/9*100 = 177.77 */
 
  }
+
+
+ footer {
+    color: white;
+    background-color: #151E3B;
+    
+}
+
+#footer-menu {
+    grid-area: menu;
+    text-align: left;
+    padding-bottom: 100px;
+}
+
+ #footer-menu p {
+    padding: 3px;
+    margin: 0px;
+    font-weight: bold;
+    font: normal 14px/.9 StratumBold,Arial,sans-serif;
+}
+
+
+#footer-image {
+    grid-area: image;
+    text-align: right;
+    height: 100px;
+
+}
+
+#footer-image img {
+    height: 100px;
+
+}
+
+#footer-info {
+    grid-area: info;
+    display: inline-flex;
+}
+
+#footer-info p {
+    width: auto;
+    padding-right: 40px;
+    font: normal 14px/.9 StratumBold,Arial,sans-serif;
+}
+
+#footer-socials {
+    grid-area: socials;
+    text-align: right;
+}
+
+#footer-socials i {
+    padding-left: 20px;
+    padding-bottom: 50px;
+}
