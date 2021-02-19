@@ -1038,3 +1038,14 @@ html.is-mobile .block-grid-animate .grid-item.active img,html:not(.is-mobile) .b
     padding-left: 20px;
     padding-bottom: 50px;
 }
+
+@media all and (min-width: 600px) {
+    #hamburger{
+      display: none;
+    }
+
+
+    @media only screen and (max-width: 600px) { 
+        
+    }
+    
