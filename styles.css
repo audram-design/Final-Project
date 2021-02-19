@@ -95,12 +95,6 @@ b,strong {
 }
 
 
-.container {
-    position: relative;
-    display: block;
-    width:100%;
-    height:100vh;
-}
 
 
 .container {
@@ -133,12 +127,18 @@ nav {
     }
     
     .max-width{
-    max-width: 1300px;
+    max-width: 44.5rem;
     padding: 0 80px;
     margin: auto;
     }
-    
-    .top-navbar .max-width{
+    .max-width2{
+        max-width: 84.5rem;
+        padding: 0 80px;
+        margin: auto;
+        width:100%;
+        }
+
+    .top-navbar .max-width2{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -337,7 +337,7 @@ text-align:center;
 }
 
 
-.careers {
+.careers{
     display:block;
     position: relative;
     padding:10rem 10rem 5rem 10rem;
@@ -345,6 +345,8 @@ text-align:center;
     color:black;
     text-align: center;
 }
+
+.careers p {    line-height: 1.5;}
 
 .marketingvideo {
 display:block;
@@ -850,6 +852,18 @@ html.is-mobile .boxed-option-item.active .number:after,html:not(.is-mobile) .box
     grid-template-areas: 'menu image'
     'info socials';
 }
+
+.line-before:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: .3em;
+    width: 3rem;
+    height: 1px;
+    background: rgba(0,0,0,.2)
+}
+
 /* 
 .grid-container div {
     border: 5px black solid;
@@ -1001,8 +1015,12 @@ html.is-mobile .block-grid-animate .grid-item.active img,html:not(.is-mobile) .b
  #footer-menu p {
     padding: 3px;
     margin: 0px;
-    font-weight: bold;
-    font: normal 14px/.9 StratumBold,Arial,sans-serif;
+    font-family: StratumBold,Arial,sans-serif;
+    font-size: 1.4rem;
+    line-height: .92857;
+    letter-spacing: .01em;
+    text-transform: uppercase;
+
 }
 
 
@@ -1027,7 +1045,7 @@ html.is-mobile .block-grid-animate .grid-item.active img,html:not(.is-mobile) .b
     width: auto;
     padding-right: 40px;
     font: normal 14px/.9 StratumBold,Arial,sans-serif;
-}
+color: #9da0a7;}
 
 #footer-socials {
     grid-area: socials;
