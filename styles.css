@@ -294,12 +294,12 @@ text-align:center;
 }
 
 .stars {
-  background:#000 url(images/stars.png) repeat top center;
+  background:#000 url(Images/stars.png) repeat top center;
   z-index:0;
 }
 
 .twinkling{
-    background:transparent url(images/twinkling.png) repeat top center;
+    background:transparent url(Images/twinkling.png) repeat top center;
     z-index:1;
   
     -moz-animation:move-twink-back 600s linear infinite;
@@ -310,7 +310,7 @@ text-align:center;
   }
   
   .clouds{
-      background:transparent url(images/clouds.png) repeat top center;
+      background:transparent url(Images/clouds.png) repeat top center;
       z-index:3;
   
     -moz-animation:move-clouds-back 600s linear infinite;
@@ -340,7 +340,7 @@ text-align:center;
 .careers{
     display:block;
     position: relative;
-    padding:10rem 10rem 5rem 10rem;
+    padding:10rem 10rem 10rem 10rem;
     background-color:white;
     color:black;
     text-align: center;
@@ -358,7 +358,7 @@ text-align:center;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    background-image: url(/Images/Untitled-2sss.jpg)
+    background-image: url(Images/Untitled-2sss.jpg)
 }
 
 .applynow p {    line-height: 1.5;}
@@ -399,56 +399,56 @@ position: relative;
 
 @font-face {
     font-family: StratumLight;
-    src: url(../font/stratum/Stratum1WebLight.eot);
-    src: url(../font/stratum/Stratum1WebLight.eot?#iefix) format("embedded-opentype"),url(../font/stratum/Stratum1WebLight.woff) format("woff");
+    src: url(font/stratum/Stratum1WebLight.eot);
+    src: url(font/stratum/Stratum1WebLight.eot?#iefix) format("embedded-opentype"),url(font/stratum/Stratum1WebLight.woff) format("woff");
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: StratumBold;
-    src: url(../font/stratum/Stratum2WebBold.eot);
-    src: url(../font/stratum/Stratum2WebBold.eot?#iefix) format("embedded-opentype"),url(../font/stratum/Stratum2WebBold.woff) format("woff");
+    src: url(font/stratum/Stratum2WebBold.eot);
+    src: url(font/stratum/Stratum2WebBold.eot?#iefix) format("embedded-opentype"),url(font/stratum/Stratum2WebBold.woff) format("woff");
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: StratumBlack;
-    src: url(../font/stratum/Stratum2WebBlack.eot);
-    src: url(../font/stratum/Stratum2WebBlack.eot?#iefix) format("embedded-opentype"),url(../font/stratum/Stratum2WebBlack.woff) format("woff");
+    src: url(font/stratum/Stratum2WebBlack.eot);
+    src: url(font/stratum/Stratum2WebBlack.eot?#iefix) format("embedded-opentype"),url(font/stratum/Stratum2WebBlack.woff) format("woff");
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: FFDINWebLight;
-    src: url(../font/din/2F8321_0_0.eot);
-    src: url(../font/din/2F8321_0_0.eot?#iefix) format("embedded-opentype"),url(../font/din/2F8321_0_0.woff2) format("woff2"),url(../font/din/2F8321_0_0.woff) format("woff"),url(../font/din/2F8321_0_0.ttf) format("truetype");
+    src: url(font/din/2F8321_0_0.eot);
+    src: url(font/din/2F8321_0_0.eot?#iefix) format("embedded-opentype"),url(font/din/2F8321_0_0.woff2) format("woff2"),url(font/din/2F8321_0_0.woff) format("woff"),url(font/din/2F8321_0_0.ttf) format("truetype");
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: FFDINWebMedium;
-    src: url(../font/din/2F8321_1_0.eot);
-    src: url(../font/din/2F8321_1_0.eot?#iefix) format("embedded-opentype"),url(../font/din/2F8321_1_0.woff2) format("woff2"),url(../font/din/2F8321_1_0.woff) format("woff"),url(../font/din/2F8321_1_0.ttf) format("truetype");
+    src: url(font/din/2F8321_1_0.eot);
+    src: url(font/din/2F8321_1_0.eot?#iefix) format("embedded-opentype"),url(font/din/2F8321_1_0.woff2) format("woff2"),url(font/din/2F8321_1_0.woff) format("woff"),url(font/din/2F8321_1_0.ttf) format("truetype");
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: FFDINWeb;
-    src: url(../font/din/2F8321_2_0.eot);
-    src: url(../font/din/2F8321_2_0.eot?#iefix) format("embedded-opentype"),url(../font/din/2F8321_2_0.woff2) format("woff2"),url(../font/din/2F8321_2_0.woff) format("woff"),url(../font/din/2F8321_2_0.ttf) format("truetype");
+    src: url(font/din/2F8321_2_0.eot);
+    src: url(font/din/2F8321_2_0.eot?#iefix) format("embedded-opentype"),url(font/din/2F8321_2_0.woff2) format("woff2"),url(font/din/2F8321_2_0.woff) format("woff"),url(font/din/2F8321_2_0.ttf) format("truetype");
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: FFDINWebProCondBold;
-    src: url(../font/din/2F8321_3_0.eot);
-    src: url(../font/din/2F8321_3_0.eot?#iefix) format("embedded-opentype"),url(../font/din/2F8321_3_0.woff2) format("woff2"),url(../font/din/2F8321_3_0.woff) format("woff"),url(../font/din/2F8321_3_0.ttf) format("truetype");
+    src: url(font/din/2F8321_3_0.eot);
+    src: url(font/din/2F8321_3_0.eot?#iefix) format("embedded-opentype"),url(font/din/2F8321_3_0.woff2) format("woff2"),url(font/din/2F8321_3_0.woff) format("woff"),url(font/din/2F8321_3_0.ttf) format("truetype");
     font-weight: 400;
     font-style: normal
 }
