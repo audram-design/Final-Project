@@ -348,6 +348,24 @@ text-align:center;
 
 .careers p {    line-height: 1.5;}
 
+.applynow{
+    display:block;
+    position: relative;
+    padding:10rem 10rem 10rem 10rem;
+    color:white;
+    text-align: center;
+    background-color: #0e182d;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(/Images/Untitled-2sss.jpg)
+}
+
+.applynow p {    line-height: 1.5;}
+
+
+
+
 .marketingvideo {
 display:block;
 position: relative;
